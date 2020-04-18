@@ -21,6 +21,7 @@
     text-align: center;
 }
 .package {
+    width:300px;
     display: inline-block;
     height:250px;
     background-color:#00a8cc;

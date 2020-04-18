@@ -43,9 +43,16 @@ body{
 }
 
 .main-footer{
+    height:100px;
+    position: relative;
+    bottom:0;
+}
+.footer-content{
     background-color:#ffa41b;
     padding:8px;
-
+    position: absolute;
+    
+    bottom: 0;
     width:100%;
     text-align: center;
     color:#000839;
