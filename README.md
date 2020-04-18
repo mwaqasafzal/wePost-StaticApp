@@ -1,0 +1,1 @@
+## simple(static) web app for posting service

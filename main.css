@@ -1,0 +1,45 @@
+
+.banner{
+    background-image:linear-gradient(to bottom,#00a8cc,transparent),url('./images/banner-img.jpg');
+    position: relative;/*positioned this to actually position slogan according to it*/
+    width:100vw;
+    height:500px;
+    background-size:cover;
+    background-position: center;
+    margin:0px auto;
+}
+
+.banner .slogan{
+    margin-top:0;
+    position: absolute;
+    font-size:2rem;
+    left:40%;
+    top:35%;
+    color:white;
+}
+.packages{
+    height:250px;
+    margin:18px 0;
+    text-align: center;
+}
+.package {
+    display: inline-block;
+    height:250px;
+    background-color:#00a8cc;
+    padding:15px;
+    margin:8px;
+    box-shadow: 8px 10px 8px rgba(77, 70, 70, 0.294)
+}
+.package-head{
+    display: inline-block;
+    padding:8px;
+    color:#000839;
+    font-size:1.5rem;
+    background-color:#005082;
+    border-radius:30px;
+}
+.packages .package-body{
+    list-style: none;
+    padding-left:0;
+    color:#000839;
+}

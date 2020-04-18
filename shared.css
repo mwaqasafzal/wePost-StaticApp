@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.main-header{
+    background-color:#ffa41b;
+}
+.main-header .monogram{
+    padding:8px;
+    width:45%;
+    display: inline-block;
+}
+.main-header .monogram a,.company-name{
+    color:#000839;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size:24px;
+    
+}
+.main-header .navbar{
+    
+    width:45%;
+    display: inline-block;
+    text-align: right;
+}
+.main-header .nav-items{
+    list-style: none;
+}
+
+.main-header .nav-items a{
+    text-decoration: none;
+    font-size:1.1rem;
+    color: #005082;
+    
+}
+
+.main-header .nav-items .nav-item{
+    display: inline-block;
+    padding:3px;
+}
+
+.main-footer{
+    background-color:#ffa41b;
+    padding:8px;
+
+    width:100%;
+    text-align: center;
+    color:#000839;
+    font-weight: bold;
+    letter-spacing:1px;
+}
+
