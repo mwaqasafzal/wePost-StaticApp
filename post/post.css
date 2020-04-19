@@ -1,0 +1,60 @@
+
+.post-details{
+    padding-top:100px;
+}
+
+.contact-form{
+    padding:1rem;
+    width:100%;
+    max-width: 720px;
+    margin:auto;
+}
+
+.contact-form .fields{
+    width:90%;
+    margin:auto;
+}
+
+input:not([type="submit"]),textarea{
+    border:1px solid #ccc;
+    display: block;
+    width:100%;
+    padding:5px;
+    min-width: 142px;
+    font-size:1rem;
+    border-radius: 4px;
+}
+
+#submit{
+    border:none;
+    width:100%;
+    padding:8px;
+    font-size:1rem;
+    color:white;
+    background-color:#005082;
+    border-radius:15px;
+    margin-top:10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color:#6496b6;
+}
+
+input,textarea{
+    margin-top:5px;
+    padding:3px;
+    resize: none;/*for textarea*/
+}
+
+textarea{
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+@media(min-width:720px){
+    .contact-form{
+        width:80%;
+    }
+}

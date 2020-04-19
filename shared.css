@@ -86,6 +86,9 @@ main{
 }
 
 @media(min-width:760px){
+    body{
+        overflow-x:hidden;
+    }
     .main-header .toggle-button{
         display: none;
     }
@@ -131,3 +134,6 @@ main{
     letter-spacing:1px;
 }
 
+.mobile-navbar .nav-item a:hover{
+    color:rgb(209, 198, 198);
+}
