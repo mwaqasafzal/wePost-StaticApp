@@ -1,32 +1,52 @@
 *{
     box-sizing: border-box;
+    
 }
 body{
     margin:0;
+    
+}
+
+main{
+    min-height: calc(100vh - 4rem - 4.1rem);
 }
 .main-header{
     background-color:#ffa41b;
+    width:100vw;
+    height:4rem;
 }
-.main-header .monogram{
-    padding:8px;
-    width:45%;
-    display: inline-block;
+
+.main-header .toggle-button{
+    background-color:transparent;
+    border:none;
+    border-radius: 5px;
+    width:50px;
+    height:2rem;
+    vertical-align: middle;
+    box-shadow: 1px 1px 1px black;
+    cursor:pointer;
 }
-.main-header .monogram a,.company-name{
-    color:#000839;
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: underline;
-    font-size:24px;
-    
-}
+
 .main-header .navbar{
-    
     width:45%;
-    display: inline-block;
+    display: none;
     text-align: right;
 }
-.main-header .nav-items{
+
+.main-header .mobile-navbar{
+    display:none;
+    text-align:center;
+    position: fixed;
+    top:0;
+    height:33vh;
+    width:100vw;
+    z-index:200;
+    background-color:#005082fa;
+}
+
+
+.main-header .nav-items,
+.mobile-navbar .nav-items{
     list-style: none;
 }
 
@@ -37,23 +57,74 @@ body{
     
 }
 
+.mobile-navbar .nav-item a{
+    text-decoration: none;
+    font-size:2rem;
+    color:white;
+}
+
 .main-header .nav-items .nav-item{
     display: inline-block;
     padding:3px;
 }
 
-.main-footer{
-    height:100px;
-    position: relative;
-    bottom:0;
+.main-header .mobile-navbar .nav-item{
+    display: block;
 }
-.footer-content{
+
+.mobile-navbar #mobile-navabar__close{
+    font-size:14px;
+    padding:4px 8px;
+    background-color:#005082;
+    font-size:1.3rem;
+    border-radius: 6px;
+    color:white;
+    cursor: pointer;
+    position: absolute;
+    right:3%;
+    top:1%;
+}
+
+@media(min-width:760px){
+    .main-header .toggle-button{
+        display: none;
+    }
+
+    .main-header .navbar{
+        display: inline-block;
+    }
+  
+
+}
+
+
+.main-header .toggle-button__bar{
+    display:block;
+    background-color:#000839;
+    height:0.1rem;
+    margin:2.5px 0;
+}
+
+.main-header .monogram{
+    padding:8px;
+    width:45%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-header .monogram a,.company-name{
+    color:#000839;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size:24px;
+    
+}
+
+
+.main-footer{
     background-color:#ffa41b;
     padding:8px;
-    position: absolute;
-    
-    bottom: 0;
-    width:100%;
+    width:100vw;
     text-align: center;
     color:#000839;
     font-weight: bold;

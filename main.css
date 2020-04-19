@@ -16,18 +16,19 @@
     color:white;
 }
 .packages{
-    height:250px;
+  
     margin:18px 0;
     text-align: center;
 }
 .package {
     width:300px;
     display: inline-block;
-    height:250px;
+    height:16rem;
     background-color:#00a8cc;
-    padding:15px;
+    padding:1rem;
     margin:8px;
-    box-shadow: 8px 10px 8px rgba(77, 70, 70, 0.294)
+    box-shadow: 8px 10px 8px rgba(77, 70, 70, 0.294);
+    text-decoration:none;
 }
 .package-head{
     display: inline-block;

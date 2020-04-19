@@ -10,12 +10,26 @@
 </head>
 <body>
     <header class="main-header">
+        
         <div class="monogram"><a href="/index.html">wePost</a></div>
+        <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+        </button>
         <nav class="navbar">
             <ul class="nav-items">
                 <li class="nav-item"><a href="/post.html">Post</a></li>
                 <li class="nav-item"><a href="/track.html">Track</a></li>
             </ul>
+        </nav>
+        <nav class="mobile-navbar">
+                <ul class="nav-items">
+                    <li class="nav-item"><a href="/post.html">Post</a></li>
+                    <li class="nav-item"><a href="/track.html">Track</a></li>
+                </ul>
+                <button id="mobile-navabar__close">X</button>
         </nav>
     </header>
     <main>
@@ -24,24 +38,27 @@
             <a class="aboutus-btn" href="./boardOfDirs/boardOfDirs.html">About Us</a>
         </section>
         <section class="packages">
-            <div class="package package1">
+            <a href="/packages/packages.html#standard" class="package package1">
                 <h4 class="package-head">Standard</h4>
                 <ul class="package-body">
                     <li>Within City,3 Working Days</li>
                     <li>Outside City,5 Working Days</li>
                 </ul>
-            </div>
-            <div class="package package2">
+            </a>
+            
+            <a href="/packages/packages.html#urgent" class="package package2">
                 <h4 class="package-head">Urgent</h4>
                 <ul class="package-body">
                     <li>Within City,1 Working Days</li>
                     <li>Outside City,2 Working Days</li>
                 </ul>
-            </div>
+            </a>
+            
         </section>
     </main>
     <footer class="main-footer"> 
-            <div class="footer-content"> <p>wePost Inc&copy;2020</p></div>
+        <p>wePost Inc&copy;2020</p>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
