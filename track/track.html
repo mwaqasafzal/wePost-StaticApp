@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>wePost|Track</title>
+  <link rel="shortcut icon" href="./images//monogram.png" type="image/png">
+  <link rel="stylesheet" href="./track.css">
+  <link rel="stylesheet" href="../shared.css">
+</head>
+
+<body>
+  <header class="main-header">
+
+    <div class="monogram"><a href="../index.html">wePost</a></div>
+    <button class="toggle-button">
+      <span class="toggle-button__bar"></span>
+      <span class="toggle-button__bar"></span>
+      <span class="toggle-button__bar"></span>
+      <span class="toggle-button__bar"></span>
+    </button>
+    <nav class="navbar">
+      <ul class="nav-items">
+        <li class="nav-item"><a href="../post/post.html">Post</a></li>
+        <li class="nav-item"><a href="../track/track.html">Track</a></li>
+      </ul>
+    </nav>
+    <nav class="mobile-navbar">
+      <ul class="nav-items">
+        <li class="nav-item"><a href="../post/post.html">Post</a></li>
+        <li class="nav-item"><a href="../track/track.html">Track</a></li>
+      </ul>
+      <button id="mobile-navabar__close">X</button>
+    </nav>
+  </header>
+  <main>
+    <section class="track-details">
+      <section class="tracker">
+        <input type="text" name="trackingId" placeholder="Tracking Id" id="trackingId">
+        <button id="track-btn">Track</button>
+      </section>
+      <section class="details">
+        <ul class="details-list">
+          <li class="details-list__entry">At <span class="details-list__datetime">--:-- on dd/mm/yy</span> From <span
+              class="location">Sender's
+              Address</span>
+            &nbsp;&nbsp; To &nbsp;&nbsp;
+            <span class="location">City Office</span></li>
+          <li class="details-list__entry">At <span class="details-list__datetime">--:-- on dd/mm/yy</span> From <span
+              class="location">City Office</span>
+            &nbsp;&nbsp; To &nbsp;&nbsp;
+            <span class="location">City 2 Office</span></li>
+          <li class="details-list__entry">At <span class="details-list__datetime">--:-- on dd/mm/yy</span> From <span
+              class="location">City 2 Office</span>
+            &nbsp;&nbsp; To &nbsp;&nbsp;
+            <span class="location">Destination</span></li>
+        </ul>
+      </section>
+
+    </section>
+
+  </main>
+  <footer class="main-footer">
+    <p>wePost Inc&copy;2020</p>
+  </footer>
+  <script src="../script.js"></script>
+</body>
+
+</html>

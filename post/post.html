@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,47 +11,50 @@
     <link rel="stylesheet" href="./post.css">
     <link rel="stylesheet" href="../shared.css">
 </head>
+
 <body>
-        <header class="main-header">
-            
-            <div class="monogram"><a href="/index.html">wePost</a></div>
-            <button class="toggle-button">
-                    <span class="toggle-button__bar"></span>
-                    <span class="toggle-button__bar"></span>
-                    <span class="toggle-button__bar"></span>
-                    <span class="toggle-button__bar"></span>
-            </button>
-            <nav class="navbar">
-                <ul class="nav-items">
-                    <li class="nav-item"><a href="./post/post.html">Post</a></li>
-                    <li class="nav-item"><a href="./track/track.html">Track</a></li>
-                </ul>
-            </nav>
-            <nav class="mobile-navbar">
-                    <ul class="nav-items">
-                        <li class="nav-item"><a href="./post/post.html">Post</a></li>
-                         <li class="nav-item"><a href="./track/track.html">Track</a></li>
-                    </ul>
-                    <button id="mobile-navabar__close">X</button>
-            </nav>
-        </header>
-        <main class="post-details">
-            <form action="" POST="POST" class="contact-form">
-                <div class="fields">
-                        <input type="text" name="name" placeholder="Name*" required>
-                        <input type="email" placeholder="Email*" required>
-                        <input type="tel" name="phone" id="" pattern="^03[0-4][1-9][1-9]{7}$" placeholder="03xxxxxxxxx" required>
-                        <textarea name="address" cols="30" rows="11" placeholder="Address*" required></textarea>
-                        <button id="submit"><i class="fas fa-paper-plane"></i> Submit</button>
-                </div>    
-                   
-            </form>
-        </main>
-       
-        <footer class="main-footer"> 
-            <p>wePost Inc&copy;2020</p>
-        </footer>
-        <script src="../script.js"></script>
-        <script src="https://kit.fontawesome.com/920c321641.js" crossorigin="anonymous"></script>
+    <header class="main-header">
+
+        <div class="monogram"><a href="/index.html">wePost</a></div>
+        <button class="toggle-button">
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+        </button>
+        <nav class="navbar">
+            <ul class="nav-items">
+                <li class="nav-item"><a href="./post.html">Post</a></li>
+                <li class="nav-item"><a href="../track/track.html">Track</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile-navbar">
+            <ul class="nav-items">
+                <li class="nav-item"><a href="./post.html">Post</a></li>
+                <li class="nav-item"><a href="../track/track.html">Track</a></li>
+            </ul>
+            <button id="mobile-navabar__close">X</button>
+        </nav>
+    </header>
+    <main class="post-details">
+        <form action="" POST="POST" class="contact-form">
+            <div class="fields">
+                <input type="text" name="name" placeholder="Name*" required>
+                <input type="email" placeholder="Email*" required>
+                <input type="tel" name="phone" id="" pattern="^03[0-4][1-9][1-9]{7}$" placeholder="03xxxxxxxxx"
+                    required>
+                <textarea name="address" cols="30" rows="11" placeholder="Address*" required></textarea>
+                <button id="submit"><i class="fas fa-paper-plane"></i> Submit</button>
+            </div>
+
+        </form>
+    </main>
+
+    <footer class="main-footer">
+        <p>wePost Inc&copy;2020</p>
+    </footer>
+    <script src="../script.js"></script>
+    <script src="https://kit.fontawesome.com/920c321641.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
